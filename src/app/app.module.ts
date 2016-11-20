@@ -5,11 +5,17 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ClickMeComponent } from './click-me/click-me.component';
+import { ShowMessageComponent } from './show-message/show-message.component';
+import { LoopBackComponent } from './loop-back/loop-back.component';
+import { MileKiloComponent } from './mile-kilo/mile-kilo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClickMeComponent
+    ClickMeComponent,
+    ShowMessageComponent,
+    LoopBackComponent,
+    MileKiloComponent
   ],
   imports: [
     BrowserModule,
